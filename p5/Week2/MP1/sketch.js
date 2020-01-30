@@ -55,10 +55,10 @@ ellipse(1600,100,200,200);
     fill(255,235,153);
     noStroke();
     rect(1100,490,30,25);//neck
-    fill(191,128,255)
+    fill(191,128,255);
     ellipse(1063,970,50,25);//shoe
     ellipse(1145,970,50,25);//shoe
-    fill(255,0,0)
+    fill(255,0,0);
     ellipse(1075,520,15,15);//shoulder
     ellipse(1192,520,15,15);//shoulder
     fill(0,0,0);
@@ -88,7 +88,7 @@ ellipse(1600,100,200,200);
    fill(255,235,153);
    noStroke();
    rect(500,225,55,50);//neck
-   fill(191,128,255)
+   fill(191,128,255);
    ellipse(460,775,75,50);//shoe
    ellipse(540,775,75,50);//shoe
    fill(255,0,0);
