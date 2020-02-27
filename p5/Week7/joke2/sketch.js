@@ -8,7 +8,7 @@ function preload() {
 
 function setup() {
   // put setup code here
-  createCanvas(800, 800)
+  createCanvas(800, 800) ;
 }
 
 function draw() {
@@ -16,26 +16,26 @@ function draw() {
   background('black');
 
 
-  switch (myState) {
-    case 0:
-      text("Why do we tell actors to break a leg?", 100, 100) ;
-      timer++ ;
-      if (timer > 200){
-        myState = 1 ;
-        timer = 0 ;
-      }
-      break;
+  // switch (myState) {
+  //   case 0:
+  //     text("Why do we tell actors to break a leg?", 100, 100) ;
+  //     timer++ ;
+  //     if (timer > 200){
+  //       myState = 1 ;
+  //       timer = 0 ;
+  //     }
+  //     break;
+  //
+  //   case 1:
+  //     text("Because every play has a cast!", 100, 100) ;
+  //     timer ++ ;
+  //     if (timer > 200){
+  //       myState = 0;
+  //       timer = 0;
+  //     }
+  //     break;
 
-    case 1:
-      text("Because every play has a cast!", 100, 100) ;
-      timer ++ ;
-      if (timer > 200){
-        myState = 0;
-        timer = 0;
-      }
-      break;
-
-  }
+  //}
 }
 
 

@@ -1,8 +1,5 @@
 var myState = 0;
 
-function preload() {
-
-}
 
 function setup() {
   // put setup code here
