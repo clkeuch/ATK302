@@ -1,41 +1,31 @@
 var myState = 0;
-var timer = 0
-
-
-function preload() {
+function preload (){
 
 }
 
 function setup() {
   // put setup code here
-  createCanvas(800, 800) ;
+  createCanvas(800, 800);
 }
 
 function draw() {
   // put drawing code here
   background('black');
 
+  switch (myState) {
+    case 0:
+    fill("white");
+    text("What is the best way to cook a gator?", 100, 100) ;
+    break;
 
-  // switch (myState) {
-  //   case 0:
-  //     text("Why do we tell actors to break a leg?", 100, 100) ;
-  //     timer++ ;
-  //     if (timer > 200){
-  //       myState = 1 ;
-  //       timer = 0 ;
-  //     }
-  //     break;
-  //
-  //   case 1:
-  //     text("Because every play has a cast!", 100, 100) ;
-  //     timer ++ ;
-  //     if (timer > 200){
-  //       myState = 0;
-  //       timer = 0;
-  //     }
-  //     break;
 
-  //}
+
+    case 1:
+    text("In a crock-pot!", 100, 100) ;
+    break;
+
+
+  }
 }
 
 
