@@ -4,9 +4,9 @@ var song3;
 var myState = 0 ;
 
 function preload() {
-  song1 = loadSound('assets/donkey.mp3');
-  song2 = loadSound('assets/skate.mp3');
-  song3 = loadSound('assets/thrill.mp3');
+  song1 = loadSound('assets/Queen.mp3');
+  song2 = loadSound('assets/T-Pain.mp3');
+  song3 = loadSound('assets/sugar.mp3');
 
 
 }
